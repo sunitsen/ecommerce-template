@@ -1,0 +1,44 @@
+ @media only screen and (max-width: 991px) {
+    .main-nav .nav-link{
+      text-align: center;
+     }
+    
+    .main-nav .nav-link:before {
+    display: none;
+      
+    }
+  .main-nav .dropdown{
+    width: 185px;
+    margin: auto;
+  
+  }
+  /*========hero section=============*/
+  .hero-slider-content{
+    margin-top: 10rem;
+    text-align: center;
+    width: 100%;
+  }
+  .hero-slider-content p{
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  .hero-slider-img{
+    margin-top: -8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-slider-img img:nth-child(2){
+  left: 20%;
+  top: 60%;
+}
+    }
+    @media only screen and (max-width: 767px){
+      .single-product{
+        margin-top: 2rem;
+      }
+      .second-product-list{
+        margin-top: 0rem !important;
+      }
+      
+    }
