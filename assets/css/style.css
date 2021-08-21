@@ -183,7 +183,7 @@ margin-top: -3rem;
   font-weight: 600;
 }
 .product-img{
-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   width: 25rem;
   margin: auto;
   display: flex;
@@ -241,12 +241,77 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24
   margin: 0rem;
 }
 
-
-
-
-
-
-
-
-
-
+/*===========featured products section============*/
+.feature-single-product {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background: #eeeeee;
+  margin-top: 3rem;
+}
+.featured-section h1{
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5rem;
+  text-transform: capitalize;
+}
+.feature-single-product{
+  padding-block: 2rem;
+}
+.img-container .nav button img{
+  max-width: 10rem;
+}
+.img-container .nav button{
+  background: #eeeeee;
+  margin:.6rem 0rem;
+}
+.feature-single-product .tab-content .tab-pane{
+margin-top: 8rem;
+}
+.featured-content{
+  width: 95%;
+  margin: auto;
+}
+.featured-content h3{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 7rem;
+  
+}
+.featured-content .featured-single-product-content-rating{
+  display: flex;
+  margin-left: -2rem;
+  
+}
+.featured-content .product-text{
+  font-size: .9rem;
+ font-weight: 600;
+  color: gray;
+}
+.featured-product-details {
+  display: flex;
+  justify-content: start;
+}
+.featured-product-details p:nth-child(1){
+  color: orange;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.featured-product-details p:nth-child(2){
+  margin:.8rem 1rem;
+  text-decoration: line-through;
+  font-weight: 600;
+}
+.add-to-card-feature-product{
+  padding: .4rem 2.5rem;
+  background: none;
+  border:2px solid gray;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.add-to-card-feature-product:hover{
+  background: gray;
+  transition: .5s;
+}
