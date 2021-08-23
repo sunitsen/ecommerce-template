@@ -90,10 +90,26 @@
   left: 20%;
   top: 60%;
 }
+.login form{
+  top:1rem;
+  right: 12rem;
+  z-index: 100;
+  }
+
+  .shopping-card{
+    position: absolute;
+    top:0rem;
+    right: 10rem;
+    z-index: 100;
+  }
+    .search{
+  width: 50%;
+   
+  }
     }
     @media only screen and (max-width: 767px){
       .single-product{
-        margin-top: 2rem;
+        margin-top: 0rem;
       }
       .second-product-list{
         margin-top: 0rem !important;
@@ -110,5 +126,27 @@
       .featured-content{
         margin-top: -6rem;
         width: 100%;
+      }
+    }
+
+
+    @media only screen and (max-width: 500px){
+      .services{
+        margin-top: -14.3rem;
+       position: absolute;
+      }
+      .latest-products{
+       margin-top: 26rem;
+      }
+      .latest-products .row{
+        margin-top: 1rem;
+      }
+    }
+
+
+
+    @media only screen and (max-width: 472px){
+      .login form{
+        right: 5rem;
       }
     }
