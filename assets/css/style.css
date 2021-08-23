@@ -23,9 +23,6 @@ ul{
 }
 .main-nav{
  background: #eeeeee;
-
- 
-
 }
 /*------main navbar--------*/
 .main-nav .navbar-brand {
@@ -101,7 +98,6 @@ ul{
   background: #D16BA5 !important;
   border:1px solid #D16BA5 !important;
   transition: .5s;
-  
 }
 .hero-slider-img{
   position: relative;
@@ -120,20 +116,15 @@ ul{
   max-width: 25vw;
 }
 
-.hero-prev {
-  background: #D16BA5 !important;
-  border:2px solid #fff !important;
-  border-radius: 50px !important;
 
+.svg-inline--fa.fa-arrow-alt-circle-left.fa-w-16 {
+  font-size: 4rem !important;
+   color: #000 !important;
 }
-.hero-next {
-  background: #D16BA5 !important;
-  border:2px solid #fff !important;
-  border-radius: 50px !important;
-
+.svg-inline--fa.fa-arrow-alt-circle-right.fa-w-16 {
+  color: #000;
+  font-size: 4rem !important;
 }
-
-
 /*=======services section=======*/
 .services .row{
   background: #eeeeee;
@@ -167,6 +158,7 @@ margin-top: -3rem;
   font-family: 'PT Serif', serif;
   font-family: 'Roboto', sans-serif;
   margin-top: 5rem;
+  text-transform: capitalize;
 }
 /*-----products design---------*/
 .single-product{
@@ -276,7 +268,6 @@ margin-top: 8rem;
   font-size: 2rem;
   font-weight: 700;
   margin-top: 7rem;
-  
 }
 .featured-content .featured-single-product-content-rating{
   display: flex;
@@ -382,3 +373,188 @@ margin-top: 8rem;
     margin:-2rem 0rem;
     padding-bottom: 1rem;
   }
+  /*==============contact form===========*/
+  .contact .h1{
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5rem;
+    text-transform: capitalize;
+  }
+  .contact form{
+  border: 1px solid #eeeeee;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .contact form .input-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 4rem;
+    align-items: center;
+  }
+  .contact .input-box input{
+    width: 60%;
+    padding: .5rem 1rem;
+    margin: 1rem 1rem;
+  }
+  .submit-text{
+  display: flex;
+  margin: auto;
+  max-width: 60%;
+  }
+  .submit{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    background: gray;
+    color: #fff;
+    text-transform: capitalize;
+    border:1px solid #eeeeee;
+    border-radius: 2rem; 
+  }
+  /*==============footer section=============*/
+  .footer{
+    background: #eeeeee;
+    padding-block: 2rem;
+  }
+  .footer-social h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+  .footer-social ul li{
+   margin: .5rem .4rem;
+  }
+ .footer-social ul li:hover{
+   margin: .5rem 1rem;
+   transition: .5s;
+  }
+.footer-social ul li a:hover{
+color: orange;
+}
+.footer-social ul li a{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+}
+  .footer-social ul li svg{
+    margin-right: 1rem;
+    color: #000000;
+    font-size:1.3rem;
+  }
+  /* Full-width input fields */
+.login{
+  display: none;
+}
+.login form{
+  width: 250px;
+  position: absolute;
+  background: #eeeeee;
+  top:5rem;
+  padding: 2rem;
+}
+.form-avater svg{
+  display: flex;
+  margin: auto;
+  font-size: 3rem;
+}
+.username input{
+ display: flex;
+  margin: auto;
+}
+.username label{
+ display: flex;
+  margin: auto;
+}
+.login-click{
+  position: relative;
+}
+
+
+/*==============shopping card=======*/
+.shopping-card{
+  background: gray;
+  max-width: 350px;
+  padding-block: 2rem;
+  
+}
+.single-add-product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding:.5rem 1rem;
+  margin:1rem auto;
+  background: #eeeeee;
+}
+.added-name img{
+  width: 5rem;
+  margin-top: 1rem;
+}
+.added-name h4{
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: -.1rem;
+}
+.added-rate ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+}
+.added-rate span:nth-child(1){
+  font-weight: 600;
+  color: orange;
+}
+.added-rate span:nth-child(2){
+  font-weight: 500;
+  color: orange;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.shop-card{
+  position: relative;
+}
+.shopping-card{
+  position: absolute;
+  top:5rem;
+  right: -12rem;
+}
+.add{
+  display: none;
+}
+.shop-card-close{
+  position: absolute;
+  bottom:.3rem;
+  right: 1rem;;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.search{
+  display: none;
+}
+.search{
+  position: absolute;
+  top:4.4rem;
+  width: 25%;
+  right: 0rem;
+}
+.search-input{
+  width: 100%;
+  padding: .5rem 1rem;
+  position: relative;
+  
+}
+.search span{
+ font-size: 2rem;
+}
+.search svg{
+  position: absolute;
+  right: 1rem;
+  top:1rem;
+  cursor: pointer;
+}

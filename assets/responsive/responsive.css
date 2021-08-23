@@ -12,6 +12,64 @@
     margin: auto;
   
   }
+/*-------hero section--------*/
+  .hero-slider-content{
+    margin-top: 6rem;
+    text-align: center;
+    width: 100%;
+  }
+   .hero-slider-content h2{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .hero-slider-content h5{
+    font-size:22px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+  .hero-slider-content p{
+    margin: auto;
+    font-size: 2vw;
+    margin-top: -1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+  .hero-slider-img{
+    margin-top: -7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-slider-img img:nth-child(2){
+  left: 20%;
+  top: 60%;
+}
+  
+.svg-inline--fa.fa-arrow-alt-circle-left.fa-w-16 {
+  font-size: 7vw !important;
+   color: #000 !important;
+}
+.svg-inline--fa.fa-arrow-alt-circle-right.fa-w-16 {
+  color: #000;
+  font-size: 7vw !important;
+}
+  .add-to-card{
+    position: absolute;
+    margin-left: -6rem;
+    z-index: 100;
+  }
+  /*-services-*/
+  .services {
+    margin-top: -2rem;
+   }
+   /*--feature section---*/
+   .featured-section h1{
+    margin-top: 5rem !important;
+    }
+    .feature-single-product{
+      padding-block: 2rem;
+        margin-top: 1rem;
+    }
   /*========hero section=============*/
   .hero-slider-content{
     margin-top: 10rem;
